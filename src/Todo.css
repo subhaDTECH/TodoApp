@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #30336b;
+    display: grid;
+    place-items: center;
+}
+.Center_div{
+    width: 30vw;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px grey;
+    position: relative;
+}
+.Center_div > h2{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.input_box > input{
+    font-size: 20px;
+    padding: 10px 20px;
+    max-width: 400px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+   
+
+}
+.mybtn{
+    margin-left: 200px !important;
+    text-align: center;
+    
+}
+.list_box{
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.todolist{
+    margin-right: 20px !important;
+   
+}
+.deletebtn{
+    margin-right: 60px !important;
+   
+}
+.removeBox{
+    padding: 10px 20px;
+    margin: 20px;
+}
+.removeBox button{
+    width: 140px;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
